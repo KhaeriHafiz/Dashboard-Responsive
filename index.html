@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Dashboard | Creating</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- side bar -->
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="aperture-outline"></ion-icon>
+                        </span>
+                        <span class="title">Nama Brand</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Pelanggan</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                        </span>
+                        <span class="title">Pesan</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Pertolongan</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Pengaturan</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Keluar</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end side bar -->
+
+        <!-- main content -->
+        <div class="main">
+            <div class="topbar">
+                <!-- menu -->
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <!-- search -->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Cari disini">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+                <!-- user img -->
+                <div class="user">
+                    <img src="img/avatar.jpg">
+                </div>
+            </div>
+
+            <!-- stat -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Kunjungan Harian</div>
+                    </div>
+                    <div class="icon8x">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Penjualan</div>
+                    </div>
+                    <div class="icon8x">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">302</div>
+                        <div class="cardName">Komentar</div>
+                    </div>
+                    <div class="icon8x">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">Rp1.500.000</div>
+                        <div class="cardName">Pendapatan</div>
+                    </div>
+                    <div class="icon8x">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="details">
+
+                <!-- order list -->
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Riwayat Pesanan</h2>
+                        <a href="" class="btn">Lihat Semua</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <td>Nama</td>
+                            <td>Harga</td>
+                            <td>Pembayaran</td>
+                            <td>Status</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kulkas</td>
+                                <td>Rp 945.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status delivered">Terkirim</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jendela</td>
+                                <td>Rp 150.000</td>
+                                <td>Jatuh Tempo</td>
+                                <td><span class="status pending">Tertunda</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speaker</td>
+                                <td>Rp 250.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status return">Dikembalikan</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>Rp 1.250.000</td>
+                                <td>Jatuh Tempo</td>
+                                <td><span class="status inprogres">Dalam Proses</span></td>
+                            </tr>
+                            <tr>
+                                <td>Apple Watch</td>
+                                <td>Rp 550.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status delivered">Terkirim</span></td>
+                            </tr>
+                            <tr>
+                                <td>Kipas Dinding</td>
+                                <td>Rp 250.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status pending">Tertunda</span></td>
+                            </tr>
+                            <tr>
+                                <td>Sepatu Adidas</td>
+                                <td>Rp 350.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status return">Dikembalikan</span></td>
+                            </tr>
+                            <tr>
+                                <td>Kaos Denim</td>
+                                <td>Rp 150.000</td>
+                                <td>Jatuh Tempo</td>
+                                <td><span class="status inprogres">Dalam Proses</span></td>
+                            </tr>
+                            <tr>
+                                <td>Sepatu</td>
+                                <td>Rp 50.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status pending">Tertunda</span></td>
+                            </tr>
+                            <tr>
+                                <td>Kompor</td>
+                                <td>Rp 250.000</td>
+                                <td>Dibayar</td>
+                                <td><span class="status pending">Tertunda</span></td>
+                            </tr>
+                            <tr>
+                                <td>Kaos Denim</td>
+                                <td>Rp 150.000</td>
+                                <td>Jatuh Tempo</td>
+                                <td><span class="status inprogres">Dalam Proses</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- new customer -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Riwayat Pelanggan</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-1.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>David<br><span>Inggris</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-2.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Luna<br><span>Spain</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-3.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Rina<br><span>Romania</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-4.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Brown<br><span>Malaysia</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-5.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Ahmad<br><span>Arab</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-6.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Jessica<br><span>Rusia</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-7.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Chel<br><span>Bangkok</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-8.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Lisa<br><span>Inggris</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="img8x"><img src="img/avatar-9.jpg"></div>
+                            </td>
+                            <td>
+                                <h4>Botak<br><span>Antah Berantah</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- end main content -->
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
